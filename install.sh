@@ -22,9 +22,12 @@ sudo wget -q --show-progress -O gdrive https://github.com/odeke-em/drive/release
 sudo chmod +x /usr/local/bin/gdrive
 gdrive version
 echo "7 - Installation Complete"
-echo "See Setup for gdrive in Readme.md"
+echo
+echo "See Readme.md for gdrive setup instructions"
 echo "eg more Readme.md"
-echo "Change folder to camvid folder"
+echo
+echo "Once gdrive is working Change folder to camvid folder"
+echo "Make sure webcam usb cable is plugged into the Raspberry Pi"
+echo "Then Run camvid.sh script per the following commands"
 echo "cd ~/camvid"
-echo "Then Run camvid.sh script per the following command"
 echo "./camvid.sh"
