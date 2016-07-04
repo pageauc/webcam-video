@@ -20,10 +20,11 @@ echo " "
 
 # ------------------------- User Variables ----------------------------
 record_time_sec=15                  # number of seconds to record
-video_dir="/home/pi/webcam/camvid"  # Full path to data folder
+video_dir="/home/pi/camvid/webcam-videos"  # Full path to data folder
 video_name="camvid.avi"           # video file name including extension
 vid_num_max=5
 
+# ----- Main Program Code -------
 # create a round robin video series up to vid_num_max
 if [ -f webcam.dat ] ; then
   vid_num=$(<webcam.dat)
