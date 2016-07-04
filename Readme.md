@@ -1,5 +1,5 @@
 ###bash script to Record and Upload Web Cam Videos
-####Securely to a users google drive
+###Securely to a users google drive
 
 This is a Raspberry Pi Bash script that uses a usb webcam to take short video
 sequences in round robin fashion, encodes and securely uploads the videos to
