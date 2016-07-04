@@ -35,8 +35,8 @@ Command above will display a long url in the RPI SSH session.
 8. Return to RPI SSH session and right click at gdrive init prompt to paste security code token
 9. Press enter to accept code.
 
-If OK no errors are displayed then a hidden .gd subfolder will be created in the webcam folder. .
-The .gd folder contains gdrive security files. For syncing purposes the webcam folder will be considered as root.
+If OK and no errors are displayed then a hidden .gd subfolder will be created in the camvid folder. .
+The .gd folder contains gdrive security files. For syncing purposes the camvid folder will be considered as root.
 To see the hidden files and folders
 
     cd ~
