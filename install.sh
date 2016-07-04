@@ -20,7 +20,9 @@ echo "6 - Install gdrive to /usr/local/bin"
 cd /usr/local/bin
 sudo wget -q --show-progress -O gdrive https://github.com/odeke-em/drive/releases/download/v0.2.2-arm-binary/drive-arm-binary
 sudo chmod +x /usr/local/bin/gdrive
+echo "gdrive version information"
 gdrive version
+echo
 echo "7 - Installation Complete"
 echo
 echo "See Readme.md for gdrive setup instructions"

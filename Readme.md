@@ -1,4 +1,4 @@
-##bash script to Record and Upload Web Cam Videos
+###bash script to Record and Upload Web Cam Videos
 ####Securely to a users google drive
 
 This is a Raspberry Pi Bash script that uses a usb webcam to take short video
@@ -6,7 +6,7 @@ sequences in round robin fashion, encodes and securely uploads the videos to
 the users google drive using an internet connection.
 The camvid.sh script is self contained is easily edited.
 
-###Quick Install
+####Quick Install
 From a Raspberry Pi SSH or console terminal session.
 
     cd ~
@@ -14,7 +14,7 @@ From a Raspberry Pi SSH or console terminal session.
     chmod +x install.sh
     ./install.sh
 
-###How to Initialize gdrive security token
+####How to Initialize gdrive security token
 Setup gdrive security for secure access to your google drive. Note: This assumes you have a google drive with a google account eg gmail and you are using a SSH terminal session on a networked PC logged into your Raspberry Pi computer. for additional details see https://github.com/odeke-em/drive
 From a windows PC that has the Chrome browser or equivalent installed and logged into your google account eg gmail.
 Login to the Raspberry Pi using SSH session on the PC. This may also be able to be done within a RPI browser desktop session but I have not tried that so I will outline the PC SSH terminal session method that works for me.
@@ -48,10 +48,11 @@ To list gdrive help type gdrive command with no parameters
 To confirm access to your google drive perform the following. This should display the contents of your google drive root folder. either command will work
  
     gdrive list
-    gdrive ls
     
 Review user settings in camvid.sh script using nano editor.  ctrl-x y to save
-then run camvid.sh script to test. 
+Make sure Raspberry Pi has good internet connection and the web cam
+usb cable is plugged into the RPI, then run camvid.sh script to test
+per the following commands. 
 
     cd ~/camvid
     ./camvid.sh
@@ -60,3 +61,5 @@ Video Files will be stored in webcam-videos folder and uploaded to the
 users google drive under webcam-videos folder.
 
 Trouble shoot as required ...   
+
+Good Luck Claude ...
