@@ -1,9 +1,9 @@
 ##bash script to Record and Upload Web Cam Videos
 ####Securely to a users google drive
 
-This is a Raspberry Pi Bash script that uses a webcam to take short video
+This is a Raspberry Pi Bash script that uses a usb webcam to take short video
 sequences in round robin fashion, encodes and securely uploads the videos to
-the users google drive.
+the users google drive using an internet connection.
 The camvid.sh script is self contained is easily edited.
 
 ###Quick Install
@@ -53,7 +53,10 @@ To confirm access to your google drive perform the following. This should displa
 Review user settings in camvid.sh script using nano editor.  ctrl-x y to save
 then run camvid.sh script to test. 
 
+    cd ~/camvid
     ./camvid.sh
     
 Video Files will be stored in webcam-videos folder and uploaded to the
-users google drive under webcam-videos folder.   
+users google drive under webcam-videos folder.
+
+Trouble shoot as required ...   
