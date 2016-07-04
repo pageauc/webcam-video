@@ -23,16 +23,18 @@ From a logged in SSH session execute the following commands. (Assumes you have a
     cd ~/camvid
     gdrive init
 
-1 - Command above will display a long url in the RPI SSH session.
-2 - In SSH window use mouse left button to highlight the very long url (do NOT press enter)
-3 - On the PC Chrome Browser window open a new browser tab and right click in the top url box
-4 - Make sure you are logged into your google account eg gmail
-5 - Right mouse click in the browser new tab url box (at top) and select paste and go
-6 -This will display a google message to confirm security access
-7 - Read message and if you Accept then a security code box will be displayed showing a security token
-8 - Use left mouse to highlight security code then right click and copy
-9 - Return to RPI SSH session and right click at gdrive init prompt to paste security code token
-10 - Press enter to accept code.
+Command above will display a long url in the RPI SSH session.
+
+1. In SSH window use mouse left button to highlight the very long url (do NOT press enter)
+2. On the PC Chrome Browser window open a new browser tab and right click in the top url box
+3. Make sure you are logged into your google account eg gmail
+4. Right mouse click in the browser new tab url box (at top) and select paste and go
+5. This will display a google message to confirm security access
+6. Read message and if you Accept then a security code box will be displayed showing a security token
+7. Use left mouse to highlight security code then right click and copy
+8. Return to RPI SSH session and right click at gdrive init prompt to paste security code token
+9. Press enter to accept code.
+
 If OK no errors are displayed then a hidden .gd subfolder will be created in the webcam folder. .
 The .gd folder contains gdrive security files. For syncing purposes the webcam folder will be considered as root.
 To see the hidden files and folders
