@@ -45,7 +45,7 @@ To list gdrive help type gdrive command with no parameters
 
     gdrive
 
-To confirm access to your google drive perform the following. This should display the contents of your google drive root folder. either command will work
+To confirm access to your google drive perform the following. This should display the contents of your google drive root folder.
  
     gdrive list
     
