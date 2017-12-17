@@ -1,11 +1,11 @@
-####bash script to Record and Upload Web Cam Videos Securely to a users google drive
+#### bash script to Record and Upload Web Cam Videos Securely to a users google drive
 
 This is a Raspberry Pi Bash script that uses a usb connected webcam to take short video
 sequences in round robin fashion, encodes and securely uploads the videos to
 the users google drive using an internet connection.
 The camvid.sh script is self contained and is easily edited.
 
-####Quick Install
+#### Quick Install
 From a Raspberry Pi SSH or console terminal session.
 
     cd ~
@@ -13,7 +13,9 @@ From a Raspberry Pi SSH or console terminal session.
     chmod +x install.sh
     ./install.sh
 
-####How to Initialize gdrive security token
+#### How to Initialize gdrive security token
+Note I now recommend using rclone. See my Github project here https://github.com/pageauc/rclone4pi
+
 Setup gdrive security for secure access to your google drive. Note: This assumes you have a google drive with a google account eg gmail and you are using a SSH terminal session on a networked PC logged into your Raspberry Pi computer. for additional details see https://github.com/odeke-em/drive
 From a windows PC that has the Chrome browser or equivalent installed and logged into your google account eg gmail.
 Login to the Raspberry Pi using SSH session on the PC. This may also be able to be done within a RPI browser desktop session but I have not tried that so I will outline the PC SSH terminal session method that works for me.
